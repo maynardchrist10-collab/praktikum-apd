@@ -75,7 +75,7 @@ while jalan:
 
     # DELETE
     elif pilihan == "4":
-        print("\n=== HAPUS DATA BAN ===")
+        print("=== HAPUS DATA BAN ===")
         for id_ban, info in data_ban.items():
             print(f"ID: {id_ban} | Motor: {info['motor']} | Merek: {info['merek']}")
         try:
